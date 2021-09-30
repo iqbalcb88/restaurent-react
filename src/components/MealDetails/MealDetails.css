@@ -1,0 +1,14 @@
+.player-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1% 0;
+  border-bottom: 1px solid salmon;
+  /* background-color: rgba(112, 128, 144, 0.342); */
+}
+
+.details-text {
+  background-color: rgba(14, 3, 2, 0.192);
+  color: whitesmoke;
+  font-weight: normal;
+  padding: 2%;
+}

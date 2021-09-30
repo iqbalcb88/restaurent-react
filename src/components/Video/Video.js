@@ -3,8 +3,8 @@ import ReactPlayer from 'react-player';
 
 const Video = (props) => {
   return (
-    <div>
-      <ReactPlayer url={props.strYoutube} />
+    <div className='player-wrapper'>
+      <ReactPlayer className='react-player' url={props.strYoutube} />
     </div>
   );
 };
