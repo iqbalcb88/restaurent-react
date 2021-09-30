@@ -42,9 +42,10 @@ const Meal = (props) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Link to={url}>visit</Link>
+        <Link style={{ textDecoration: 'none' }} to={url}>
+          <Button size='small'>Details</Button>
+        </Link>
         <Button size='small'>Share</Button>
-        <Button size='small'>Details</Button>
       </CardActions>
     </Card>
   );
