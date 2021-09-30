@@ -20,7 +20,7 @@ const Meal = (props) => {
     idMeal,
   } = props.meal;
   console.log(props.key);
-  const url = `/mealDetails/${idMeal}`;
+  const url = `/itemDetails/${idMeal}`;
 
   return (
     <Card sx={{ maxWidth: 345 }}>

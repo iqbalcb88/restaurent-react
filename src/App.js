@@ -21,7 +21,7 @@ function App() {
         <Route path='/restaurant'>
           <Restaurant></Restaurant>
         </Route>
-        <Route path='/mealDetails/:mealId'>
+        <Route path='/itemDetails/:mealId'>
           <MealDetails />
         </Route>
         <Route path='*'>
